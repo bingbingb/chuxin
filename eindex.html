@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>233</title>
+		<style>
+			body {
+				background: url(img/er.jpg) 0 / cover fixed;
+				overflow: hidden;
+			}
+			
+			.yk {
+				width: 50px;
+				margin: 150px auto;
+				border: 1px solid black;
+				text-align: center;
+				line-height: 45px;
+				font-weight: bold;
+				font-size: 25px;
+				border-radius: 50%;
+				float: left;
+				vertical-align: middle;
+			}
+			
+			#gq {
+				cursor: pointer;
+				position: absolute;
+				top: 342px;
+				left: calc(32%);
+				background: url(img/huaijiu.jpg);
+			}
+			
+			#gq:hover {
+				top: 330px;
+				left: calc(25%);
+				width: 300px;
+				height: 200px;
+			}
+			
+			#xz {
+				cursor: pointer;
+				position: absolute;
+				top: 210px;
+				left: calc(42%);
+				background: url(img/xianz.jpg);
+			}
+			
+			#wl {
+				cursor: pointer;
+				position: absolute;
+				top: -85px;
+				left: calc(64%);
+				background: url(img/wl1.jpg);
+			}
+			
+			#wl:hover {
+				position: absolute;
+				top: -85px;
+				left: calc(56%);
+				width: 300px;
+				height: 200px;
+			}
+			
+			#ge {
+				cursor: pointer;
+				position: absolute;
+				top: 160px;
+				left: calc(63%);
+				background: url(img/j10.jpg);
+			}
+			
+			#ge:hover {
+				top: 140px;
+				left: calc(55%);
+				width: 300px;
+				height: 200px;
+			}
+			
+			#wh {
+				cursor: pointer;
+				position: absolute;
+				top: 280px;
+				left: calc(17%);
+				background: url(img/wh.jpg);
+			}
+			
+			#wh:hover {
+				top: 280px;
+				left: calc(10%);
+				width: 300px;
+				height: 200px;
+			}
+			
+			#rm {
+				cursor: pointer;
+				position: absolute;
+				top: 25px;
+				left: calc(45%);
+				background: url(img/rm.jpg);
+			}
+			
+			#rm:hover {
+				top: 20px;
+				left: calc(38%);
+				width: 300px;
+				height: 200px;
+			}
+			
+			#jj {
+				cursor: pointer;
+				position: absolute;
+				top: 300px;
+				left: calc(69%);
+				background: url(img/jingji.jpg);
+			}
+			
+			#jj:hover {
+				top: 300px;
+				left: calc(60%);
+				width: 300px;
+				height: 200px;
+			}
+			
+			.jh {
+				font-family: "微软雅黑";
+				margin-top: -5px;;
+				margin-left: 170px;
+				font-size: 50px;
+				text-shadow: 5px 5px 6px #888888;
+				color: #f57676;
+			}
+			a{
+				text-decoration:none;
+				color: #06920e;
+			}
+			#wu1 {
+				cursor: pointer;
+				position: absolute;
+				top: calc(6%);
+				left: calc(28.5%);
+				background: url(img/xianz.jpg);
+			}
+			#wu2 {
+				cursor: pointer;
+				position: absolute;
+				top: calc(22%);
+				left: calc(33%);
+				background: url(img/xianz.jpg);
+			}
+			#wu3 {
+				cursor: pointer;
+				position: absolute;
+				top: calc(-3.3%);
+				left: calc(73%);
+				background: url(img/xianz.jpg);
+			}
+			#wu4 {
+				cursor: pointer;
+				position: absolute;
+				top: calc(10.5%);
+				left: calc(73%);
+				background: url(img/xianz.jpg);
+			}
+			#wu5 {
+				cursor: pointer;
+				position: absolute;
+				top: calc(51%);
+				left: calc(51%);
+				background: url(img/xianz.jpg);
+			}
+			.En{
+				 width: 100px;
+				 height: 100px;
+				 background-color: #f1d6ccf0;
+				 border-radius: 50%;
+				 -moz-border-radius: 50%;
+				 -webkit-border-radius: 50%;
+				 text-align: center;
+				 line-height: 80px;
+				 position:absolute;
+				 margin-top: calc(3%);
+				 margin-left: calc(10%);
+				 font-size:15px;
+			}
+			.En:hover{
+				 width: 200px;
+				 height: 200px;
+				 background-color: #f1d6ccf0;
+				 border-radius: 50%;
+				 -moz-border-radius: 50%;
+				 -webkit-border-radius: 50%;
+				 text-align: center;
+				 line-height: 140px;
+				 font-size: 25px;
+				  margin-top: calc(3%);
+				 margin-right: calc(10%);
+				 position:absolute;
+			}
+		</style>
+		<script>
+			window.onload = function() {
+				var story = document.getElementById('bt');
+				var s = document.getElementById('jh');
+				var i = 1;
+				timer = setInterval(function() {
+					s.innerHTML = story.innerHTML.substring(0, i);
+					i++;
+					if(s.innerHTML == story.innerHTML) {
+						clearInterval(timer);
+					}
+				}, 200);
+			}
+		</script>
+	</head>
+
+	<body>
+		<div>
+			<h1 id="bt" style="display: none;">Keep in mind your original intention and move on</h1>
+			<h1 id="jh" class="jh"></h1></div>
+		<div id="gq" class="yk">
+			<span id="zt">
+				<a href="egq.html">&emsp;<br/>&emsp;history</a></span>
+		</div>
+		<div id="xz" class="yk">
+			<span id="zt">&emsp;<br/>&emsp;
+			</span>
+		</div>
+		<div id="wl" class="yk">
+			<span id="zt">
+				<a href="ewl.html">&emsp;<br/>&emsp;future</a>
+			</span>
+		</div>
+		<div id="jj" class="yk">
+			<span>
+				<a href="ejingji.html">&emsp;<br/>&emsp;economic</a>
+			</span>
+		</div>
+		<div id="rm" class="yk">
+			<span>
+				<a href="erenmin.html">&emsp;<br/>&emsp;people's</a>
+			</span>
+		</div>
+		<div id="wh" class="yk">
+			<span>
+				<a href="ewenhua.html">&emsp;<br/>&emsp;culture</a>
+			</span>
+		</div>
+		<div id="ge" class="yk">
+			<span>
+				<a href="ehezuo.html">&emsp;<br/>&emsp;cooperation</a>
+			</span>
+		</div>
+		<div id="wu1" class="yk">
+			<span>
+				&emsp;<br/>&emsp;
+				</span>
+		</div>
+		<div id="wu2" class="yk">
+			<span>
+			&emsp;<br/>&emsp;
+			</span>
+		</div>
+		<div id="wu3" class="yk">
+			<span>
+				&emsp;<br/>&emsp;
+			</span>
+		</div>
+		<div id="wu4" class="yk">
+			<span>
+				&emsp;<br/>&emsp;
+			</span>
+		</div>
+		<div id="wu5" class="yk">
+			<span>
+				&emsp;<br/>&emsp;
+			</span>
+		</div>
+		<div class="En">
+			<a href="index.html"><h2>Chinese</h2></a>
+		</div>
+	</body>
+
+</html>
